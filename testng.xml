@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HybridFramework">
+<listeners>
+<listener class-name="com.inetbanking.utilities.Reporting"/>
+</listeners>
+<test name="ebanking app">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="com.inetbanking.testcases.TC_LoginTest"/> 
+<!--  <class name="com.inetbanking.testcases.TC_1LoginDDT"/>-->
+<class name="com.inetbanking.testcases.TC_AddCustPg"/>
+</classes>
+
+</test>
+</suite>
